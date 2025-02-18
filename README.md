@@ -17,7 +17,7 @@ npm install
 ### 3️⃣ Setup Environment Variables
 Create a `.env` file in the root directory and add:
 ```sh
-REACT_APP_API_BASE_URL=http://localhost:3001
+REACT_APP_API_URL=http://localhost:3001
 ```
 
 ### 4️⃣ Start the Development Server
