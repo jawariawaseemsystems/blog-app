@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { User } from "../types";
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
 
 export const useUser = () => {
 
@@ -15,6 +15,7 @@ export const useUser = () => {
     
     const getUser = async () => {
         try{
+            console.log(API_URL);
             const randomUserId = Math.floor(Math.random() * 3) + 1;
             const response: any = await fetch(`${API_URL}/users/${randomUserId}`);
             const user = await response.json(); 
