@@ -5,7 +5,7 @@ This is a simple **Blog Application** that allows users to view, create, edit, a
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/blog-app.git
+git clone https://github.com/jawariawaseemsystems/blog-app
 cd blog-app
 ```
 
